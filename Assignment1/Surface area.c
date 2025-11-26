@@ -7,7 +7,7 @@ int main()
 
     // Ask the user for radius
     printf("Enter the radius of the sphere: ");
-    scanf("%f", radius);
+    scanf("%f",&radius);
 
     // Calculate surface area of the sphere
     surfaceArea = 4 * PI * radius * radius;
@@ -17,3 +17,4 @@ int main()
 
     return 0;
 }
+
